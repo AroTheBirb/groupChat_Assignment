@@ -84,9 +84,10 @@ button > a{
     color: black;
 }
 
+
 .messageBox{
-    height: 200px 1000px; 
-    overflow: scroll;
+    height: 300px;
+    overflow: auto;
     background-color: white;
     margin-top: 20px;
 }
