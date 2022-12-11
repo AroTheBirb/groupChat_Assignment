@@ -10,7 +10,7 @@ app.get("/", function( request, response ){
     response.render( 'index' );
 });
 
-const server = app.listen( $PORT );
+const server = app.listen(process.env.PORT || 3000);
 
 const io =require( 'socket.io' ) ( server );
 
