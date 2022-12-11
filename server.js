@@ -10,7 +10,7 @@ app.get("/", function( request, response ){
     response.render( 'index' );
 });
 
-const server = app.listen( 7077 );
+const server = app.listen( $PORT );
 
 const io =require( 'socket.io' ) ( server );
 
