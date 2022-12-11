@@ -17,7 +17,7 @@ $( '.messageForm' ).on( 'submit', function(event){
 });
 
 socket.on('sendAll', function( data ){
-    let message = `<p>${data.name} :  ${data.message}</p>`;
+    let message = `<p>${data.name}:  ${data.message}</p>`;
     console.log( message );
     $('.messageBox' ).append( message );
 });
