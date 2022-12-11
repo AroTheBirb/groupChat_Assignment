@@ -1,6 +1,6 @@
 console.log("working");
 
-let socket = io( 'http://localhost:7077' );
+let socket = io( 'https://groupchatassignment-production-5f99.up.railway.app/' );
 
 let userName = prompt( "Please enter your name", "" );
 
